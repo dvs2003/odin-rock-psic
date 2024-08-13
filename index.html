@@ -4,9 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
+    <script src="script2.js" defer></script>
 </head>
 <body>
-    
+    <div class="playerSelection">
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="Scissor">Scissor</button>
+    </div>
+    <div class="stats">
+        <p><span id="gameCount">0</span> Games Played</p>
+        <p>Computer wins = <span id="computerWinCount">0</span></p>
+        <p>Human wins = <span id="humanWinCount">0</span></p>
+    </div>
+    <div class="soreBoard">
+        <ol>
+            Outcome of each round.
+        </ol>
+    </div>
 </body>
 </html>
